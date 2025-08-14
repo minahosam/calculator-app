@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const number1 = document.getElementById("number1");
 const number2 = document.getElementById("number2");
 const add = document.getElementById("add");
