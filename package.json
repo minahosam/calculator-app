@@ -2,11 +2,10 @@
   "name": "calculator-typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel serve calculator.html",
-    "build": "parcel build calculator.html --dist-dir dist --public-url ./"
+    "start": "npx parcel serve Calculator.html",
+    "build": "npx parcel build Calculator.html --dist-dir dist --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -19,5 +18,20 @@
   "bugs": {
     "url": "https://github.com/minahosam/calculator-app/issues"
   },
-  "homepage": "https://github.com/minahosam/calculator-app#readme"
+  "homepage": "https://github.com/minahosam/calculator-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.2",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.25.2",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "parcel": "^2.12.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
