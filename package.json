@@ -1,16 +1,23 @@
 {
   "name": "calculator-typescript",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve calculator.html",
+    "build": "parcel build calculator.html --dist-dir dist --public-url ./"
   },
-  "dependencies": {
-    "express": "^4.21.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minahosam/calculator-app.git"
   },
-  "devDependencies": {
-    "typescript": "^5.8.2",
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.13.9"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/minahosam/calculator-app/issues"
+  },
+  "homepage": "https://github.com/minahosam/calculator-app#readme"
 }
